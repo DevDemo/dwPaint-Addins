@@ -1,7 +1,7 @@
 # dwPaint Addins
 
 ---
-<img src="https://user-images.githubusercontent.com/2152604/35648830-e588525a-068b-11e8-850f-d8ab0f5f8959.jpg" weith=100% lass="transparent">
+<img src="./ressources/BannerAddins.jpg" weith=100% lass="transparent">
 
 
 This repository is for distributing community-contributed add-ins to all dwPaint users, replacing the old and slightly unreliable server system we used to use. Please note that in this repository you only commit the finished and packaged binaries for your add-ins. You should still keep your source code, isue trackers etc. in a git repository of your own.
@@ -33,4 +33,4 @@ Add, and adding this URL.
 sudo apt-get install mono-addins-utils
 ```
 ---
-<img src="https://www.itu.int/en/ITU-T/AI/PublishingImages/AIRepositoryImage201712-650x317.png" weith=100% lass="transparent">
+<img src="./ressources/bottomBanner.jpg" weith=250% lass="transparent">
