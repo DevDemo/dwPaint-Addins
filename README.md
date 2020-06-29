@@ -8,7 +8,7 @@ This repository is for distributing community-contributed add-ins to all dwPaint
 
 #### The repository
 
-Go to http://github.io/dwPaint-Community-Addins/repository/All (also Linux/Mac/Windows for platform specific addins) to check out the currently availble addins, and add the repository to dwPaint by opening the addin manager, going to 
+Go to https://github.com/DevDemo/dwPaint-Addins/blob/master/repository/All (also Linux/Mac/Windows for platform specific addins) to check out the currently availble addins, and add the repository to dwPaint by opening the addin manager, going to 
 Gallery ->
 Manage repositories ->
 Add, and adding this URL.

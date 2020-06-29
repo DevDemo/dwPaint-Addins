@@ -6,7 +6,7 @@
 
 This branch contains a minified bundle of [github-embed](https://github.com/devdemo/gitHUB-embed).
 
-[Demo](http://devdemo.github.io/dwPaint-Addins/ressource/demo.html)
+[Demo](https://github.com/DevDemo/dwPaint-Addins/blob/master/ressource/demo.html)
 
 ```html
 <!-- babel-polyfill is required -->
@@ -16,7 +16,7 @@ This branch contains a minified bundle of [github-embed](https://github.com/devd
 
 ```html
 <!-- do not do this on production -->
-<script src="https://finom.github.io/github-embed/github-embed.min.js"></script>
+<script src="https://github.com/DevDemo/github-embed/blob/master/github-embed.min.js"></script>
 ```
 
 
