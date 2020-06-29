@@ -1,12 +1,19 @@
 # dwPaint Addins
 
+---
+<img src="https://user-images.githubusercontent.com/2152604/35648830-e588525a-068b-11e8-850f-d8ab0f5f8959.jpg" weith=100% lass="transparent">
+
+
 This repository is for distributing community-contributed add-ins to all dwPaint users, replacing the old and slightly unreliable server system we used to use. Please note that in this repository you only commit the finished and packaged binaries for your add-ins. You should still keep your source code, isue trackers etc. in a git repository of your own.
 
-## The repository
+#### The repository
 
-Go to http://github.io/dwPaint-Community-Addins/repository/All (also Linux/Mac/Windows for platform specific addins) to check out the currently availble addins, and add the repository to dwPaint 1.5 by opening the addin manager, going to Gallery -> Manage repositories -> Add, and adding this URL.
+Go to http://github.io/dwPaint-Community-Addins/repository/All (also Linux/Mac/Windows for platform specific addins) to check out the currently availble addins, and add the repository to dwPaint by opening the addin manager, going to 
+Gallery ->
+Manage repositories ->
+Add, and adding this URL.
 
-## Adding to the repository
+#### Adding to the repository
 
 - Make sure you have mautil installed by installing the mono-addins-utils package.
 - Build your add-in as described in the tutorial (look at the existing add-ins for a hint).
@@ -19,16 +26,11 @@ Go to http://github.io/dwPaint-Community-Addins/repository/All (also Linux/Mac/W
 - If you wish, you can locally test that your mpack works by adding the repository in dwPaint through Add-in Manager -> Gallery -> Manage repositories -> Add -> Register a local repository, and then installing the addin that way.
 - Commit to git and send a pull request to get your add-in included/updated. (Reliable add-in authors may be given commit rights to the main repository)
   - The pull request should include changes to index.html, root.mrep, main.mrep (from running the update script), and your addin mpack.
-- Voilà, your add-in is now available to every dwPaint user! (From 1.6 onwards, or if they have added the repository manually)
 
-## mautil
-For debian:
-"apt-get install mono-addins-utils"
+### debian
 
-## Licensing
-What little code there is in this repository is MIT/X-licensed just like dwPaint. Individual addins contributed to this repository can have different licenses on their source code, but by committing them here you agree to allow unlimited distribution of the binaries.
-
-## Notes
-See the [Mono.Addins wiki](https://monoaddins.codeplex.com/wikipage?title=Creating%20and%20Managing%20Add-in%20Packages) for more info on mautil and mpack.
-
-See the [dwPaint wiki](https://github.com/dwPaintProject/dwPaint/wiki) for more on creating dwPaint addins.
+```shell
+sudo apt-get install mono-addins-utils
+```
+---
+<img src="https://www.itu.int/en/ITU-T/AI/PublishingImages/AIRepositoryImage201712-650x317.png" weith=100% lass="transparent">
